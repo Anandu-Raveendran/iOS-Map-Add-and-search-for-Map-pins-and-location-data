@@ -27,7 +27,7 @@ class CountryListViewController: UITableViewController {
 //            countries.append(name)
 //        }
     
-        let request = URLRequest(url: URL(string: String("http://api.countrylayer.com/v2/all?access_key=2dfd33238a1cefd5313d6fc5b2bab705"))!)
+        let request = URLRequest(url: URL(string: String("http://api.countrylayer.com/v2/all?access_key=dfd33238a1cefd5313d6fc5b2bab705"))!)
 
         
         let task = URLSession.shared.dataTask(with: request){
